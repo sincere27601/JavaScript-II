@@ -57,14 +57,14 @@ function sumNums(x, y, cb) {
   // sumNums adds two numbers (x, y) and passes the result to the callback.
   return cb(x+y);
 }
-sumNums(8,5, console.log);
+sumNums(4,6, console.log);
 
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
   return cb(x*y);
 }
-multiplyNums(8,5,console.log);
+multiplyNums(4,6,console.log);
 
 
 function contains(item, list, cb) {
